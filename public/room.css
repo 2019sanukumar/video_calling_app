@@ -1,0 +1,42 @@
+body{
+    background-color: grey;
+    color:orange;
+}
+.header
+{
+    text-align: center;
+}
+.main{
+    /* display:flex; */
+    /* orientation: landscape; */
+    display: inline;
+}
+.main__left{
+    width: 70%;
+    height:90vh;
+    display:flex;
+    background-color: rgb(68, 62, 62);
+    text-align: center;
+}
+.main__right{
+    margin-left:70%;
+    background-color: rgba(33, 53, 65, 0.651);
+    width: auto;
+    margin-top:-90vh;
+    height: 90vh;
+    display: flex;
+
+}
+.options__button
+{
+    /* width:50px; */
+    /* height: 50px; */
+}
+#stopVideo
+{
+    position:relative;
+    margin-top:80vh;
+    margin-left:40%;
+    
+
+}
